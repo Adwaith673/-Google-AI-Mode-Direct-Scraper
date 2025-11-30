@@ -113,7 +113,8 @@ Filename [ai_responses.json]: my_research.json
 ```
 🤖 AI Response (paragraph):
 ------------------------------------------------------------
-<img width="778" height="237" alt="image" src="https://github.com/user-attachments/assets/91ebd8ce-bb1c-44a5-a218-bd6c2c18a25e" />
+<img width="1896" height="420" alt="image" src="https://github.com/user-attachments/assets/08281985-f395-4022-b047-8c3823edca3a" />
+
 
 ```
 
