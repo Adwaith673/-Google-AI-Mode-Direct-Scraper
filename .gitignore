@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+venv/
+.env
+*.egg-info/
+dist/
+build/
+geckodriver.log
+chromedriver.log
+ai_responses.json
+*.png
+*.html
+pseudocapitulum/

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "google-ai-scraper"
+version = "1.0.0"
+description = "A modular CLI tool to interact directly with Google AI Mode via Selenium."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [{name = "Contributor", email = "dev@example.com"}]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "selenium",
+    "webdriver-manager",
+    "beautifulsoup4",
+    "tabulate"
+]
+
+[project.scripts]
+google-ai = "google_ai_scraper.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
